@@ -13,16 +13,11 @@ class UsersTableSeeder extends Seeder
     {
 
         $user = [
-            'titre' => 'M.',
-            'poste' => 'Administrateur Web',
-            'name'  => 'Djibril NDIAYE',
-            'adresse'   => 'Ouakam, Cite Comico',
-            'pays'  => 'SN',
-            'region'    => 'DK',
-            'role'  => 'admin',
-            'telephone' => '00000000',
-            'email' => 'admin@dirpharm.com',
-            'password' => 'Password#191',
+
+            'name'  => 'Name',
+            'adresse'   => 'Adresse',
+            'email' => 'exemple@email.com',
+            'password' => 'Password',
             'active'    => '1'
         ];
 
