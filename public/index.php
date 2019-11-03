@@ -61,6 +61,6 @@ $kernel->terminate($request, $response);
 
 if(DB::connection()->getDatabaseName())
 {
-   echo "Connected to database ".DB::connection()->getDatabaseName();
+//    echo "Connected to database ".DB::connection()->getDatabaseName();
 }
 $response->send();
